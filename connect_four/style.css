@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  font-style: italic;
+  flex-direction: column;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 2px solid black;
+}
+
+.grid div {
+  border: 1px solid black;
+  /* background-color: blueviolet; */
+  height: 50px;
+  width: 50px;
+}
+
+.player-1{
+  background-color: red;
+  border-radius: 10px;
+}
+
+.player-2{
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.default{
+  display: none;
+}

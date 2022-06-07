@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.grid div{
+    height: 40px;
+    width: 40px;
+}
+
+.starting-block{
+    background-color: blue;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+.l1, .l2, .l3{
+    background-color: brown;
+}
+
+.l4, .l5{
+    background-color: lightblue;
+}
+
+.c1{
+    background-color: black;
+}
+
+.c2, .c3{
+    background-color: lightgrey;
+}
+
+.frog{
+    background-color: green;
+}

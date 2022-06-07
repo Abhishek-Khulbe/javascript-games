@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 30rem;
+    width: 30rem;
+    border: 5px solid black;
+}
+
+.square{
+    border: 2px solid black;
+}
+
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+}

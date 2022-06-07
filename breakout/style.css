@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.grid {
+  /* position: absolute; */
+  width: 560px;
+  height: 300px;
+  border: solid 1px black;
+  margin-top: 100px;
+}
+
+.user {
+  position: absolute;
+  width: 105px;
+  height: 20px;
+  background-color: blueviolet;
+}
+
+.block {
+  position: absolute;
+  width: 105px;
+  height: 20px;
+  background-color: blue;
+}
+
+.ball {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: red;
+}
